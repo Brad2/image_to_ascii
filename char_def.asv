@@ -1,0 +1,3 @@
+for i = 1:100
+    if i == 88
+        W_char_mat = img_sharpener('W.png');

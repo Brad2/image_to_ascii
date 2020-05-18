@@ -1,0 +1,8 @@
+origpic = imread('W2.png');
+%imshow(origpic);
+
+sharppic = imsharpen(origpic,'Radius',2,'Amount',1);
+
+gray_char = rgb2gray(sharppic);
+
+for 

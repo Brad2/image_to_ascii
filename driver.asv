@@ -1,0 +1,15 @@
+function driver(image)
+RGB = imread(image);
+I = rgb2gray(RGB);
+
+[h,w] = size(I);
+%I = I(1:h-mod(h,37),1:w-mod(w,17));
+image_result = fopen('image_result.txt','w');
+
+for i = 1:h
+    for j = 1:w
+        fprintf(image_result,'%1s',);
+    end
+end
+end
+
